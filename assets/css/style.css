@@ -3,19 +3,7 @@
   @import url('https://fonts.googleapis.com/css2?family=Kablammo&family=Lato:ital,wght@0,300;01,300;&family=Oswald:wght@200..700&display=swap');
 
   
-  .lato-light-italic {
-    font-family: "Lato", sans-serif;
-    font-weight: 300;
-    font-style: italic;
-  }
-  
-  .oswald {
-    font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-  }
-
+ 
 
 
 /* Asterisk wildcard selector to override styles added by the browser */
@@ -27,7 +15,7 @@
 
 /* General styles */
 body {
-    font-family: "Lato";
+    font-family: "Lato", sans-serif;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
