@@ -1,12 +1,7 @@
 /* Google fonts import */
-
-  @import url('https://fonts.googleapis.com/css2?family=Kablammo&family=Lato:ital,wght@0,300;01,300;&family=Oswald:wght@200..700&display=swap');
-
-  
- 
-
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200..700&display=swap');
 /* Asterisk wildcard selector to override styles added by the browser */
+
 * {
     padding: 0;
     margin: 0;
@@ -15,7 +10,7 @@
 
 /* General styles */
 body {
-    font-family: "Lato", sans-serif;
+ font-family: 'Lato', sans-serif;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -26,7 +21,15 @@ body {
 
 /* Header */
 header {
+  
     background-color: lightcoral;
+}
+
+
+
+H1 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 800px;
 }
 
 /* Main */
