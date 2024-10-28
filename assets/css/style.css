@@ -105,3 +105,27 @@ main {
 footer {
     background-color: orange;
 }
+
+/* media query for screen width a min width of 768 px */
+@media only screen and (min-width: 768px) {
+nav {
+    /* header */
+    display: block;
+    position:relative;
+    box-shadow: none;
+    width:fit-content;
+    padding-right: 1rem;
+    }
+
+    #menu {
+        display:flex;
+        padding-left
+    }
+    #menu li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display:none;
+    }
+}
