@@ -108,35 +108,48 @@ footer {
 
 /* media query for screen width a min width of 768 px */
 @media only screen and (min-width: 768px) {
-nav {
-    /* header */
-    display: block;
-    position:relative;
-    box-shadow: none;
-    width:fit-content;
-    padding-right: 1rem;
+    nav {
+        /* header */
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
     }
 
     #menu {
-        display:flex;
+        display: flex;
         padding-left
     }
+
     #menu li {
         padding-left: 1rem;
     }
 
     .nav-toggle-label {
-        display:none;
+        display: none;
     }
 
- #logo {
-    font-size: 200%;
-    line-height:75px;
-    margin: 0 0.5rem;
- }
-     /* Main */
-     main { 
+    #logo {
+        font-size: 200%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+    /* Main */
+    main {
         /* push main down to accomodate for larger header */
         margin-top: 75px;
-     }
     }
+}
+
+
+/* media query for small laptops - min width of 992px */
+@media only screen and (min-width: 992px) {
+  #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
+    } 
+
+
+
+}
