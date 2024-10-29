@@ -163,13 +163,20 @@ h3 {
     justify-content: center;
 }
 
-#meet-ups {
+/* meetings */
+
+#times {
+    background: url(../images/dublin-city.webp) no-repeat top center / cover;
     display: flex;
-    flex-direction: column;
+   
     flex-wrap: wrap;
+
+    
+  
 }
 
 #times div {
+    
     color: #fafafa;
     background-color: rgba(0, 0, 0, .6);
     padding: 15px;
@@ -180,6 +187,10 @@ h3 {
     flex-grow: 1;
     /* Creates a grid of meetup time divs over the background image */
     border: 2px solid white;
+}
+
+#times h3 {
+    color:#fafafa;
 }
 
 /* Footer */
